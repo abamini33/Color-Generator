@@ -1,0 +1,21 @@
+body {
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    transition: 1s linear;
+}
+
+#colorDisplay {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    width: fit-content;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
